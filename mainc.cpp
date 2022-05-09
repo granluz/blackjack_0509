@@ -23,7 +23,7 @@ int main()
 	{
 		int FirstNumber = rand() % 52;
 		int SecondNumber = rand() % 52;
-		int Temp = Deck[rand() % 52];
+		int Temp = Deck[FirstNumber];
 		Deck[FirstNumber] = Deck[SecondNumber];
 		Deck[SecondNumber] = Temp;
 	}
