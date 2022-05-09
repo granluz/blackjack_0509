@@ -5,7 +5,7 @@ using namespace std;
 
 int Max10(int Number)
 {
-	return (Number > 10) ? 10 : Number;
+return (Number > 10) ? 10 : Number;
 }
 
 int main()
